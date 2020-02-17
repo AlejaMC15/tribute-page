@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(170, 126, 170, 0.3);
+}
+
+.hamburger{
+	position:fixed;
+    background-color:transparent;
+	left:0;
+	top:0;
+	height:30px;
+	width:30px;
+	padding:20px 20px;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	z-index:1002;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+    user-select: none;
+}
+.hamburger.is-active{
+  background-color:none;
+}
+._layer{
+	background:#333333;
+	margin-bottom:4px;
+	border-radius:2px;
+	width:28px;
+	height:4px;
+	opacity:1;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+.hamburger:hover .-top{
+	-webkit-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	transform:translateY(-100%);
+}
+.hamburger:hover .-bottom{
+	-webkit-transform:translateY(100%);
+	-ms-transform:translateY(100%);
+	transform:translateY(100%);
+	}
+.hamburger.is-active .-top{
+	-webkit-transform:translateY(200%) rotate(45deg);
+	-ms-transform:translateY(200%) rotate(45deg);
+	transform:translateY(200%) rotate(45deg);
+}
+.hamburger.is-active .-mid{
+	opacity:0;
+}
+.hamburger.is-active .-bottom{
+	-webkit-transform:translateY(-200%) rotate(135deg);
+	-ms-transform:translateY(-200%) rotate(135deg);
+	transform:translateY(-200%) rotate(135deg);
+}
+
+.menuppal.is_active{
+  transform: translate3d(0px, 0px, 0px);
+}
+.menuppal{
+   background-color: rgba(01, 02, 03, 0.1);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 18%;
+    z-index: 1001;
+}
+.menuppal ul{
+  margin:0;padding:0;
+}
+.menuppal ul li { 
+  list-style: none;
+	text-align:center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	line-height:3em;
+	height:3em;
+    color: black;
+	text-transform:none;
+	font-weight:bold;
+}
+.menuppal ul li a{
+  text-decoration:none;
+  color: black;
+}
+.menuppal ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.texto-borde {
+    text-shadow: 3px 3px 3px black;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 50%;
+    border: 20px solid rgba(252, 251, 251, 0.5);
+    box-shadow: 5px 5px 5px black;
+}
+
+hr {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+p {
+    width: 800px;
+    padding: 30px;
+    margin-left: 50px;  
+    text-align: justify;   
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.biografia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+} 
+
+h3 {
+    text-align: center;
+}
+
+h3 a {
+    color: black;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+}
+
+footer div a {
+    color: black;
+}
+
+blockquote {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    padding: 30px;
+    justify-content: center
+}
