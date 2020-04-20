@@ -1,0 +1,23 @@
+.times {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .times-content {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #timer-label {
+    font-size: 1.5rem;
+  }
+  
+  #time-left {
+    font-size: 5rem;
+  }

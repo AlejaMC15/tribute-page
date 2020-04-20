@@ -1,0 +1,16 @@
+.controller {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .controller button {
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #fff;
+    width: 85px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }

@@ -1,0 +1,36 @@
+.settings {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .settings-section {
+    text-align: center;
+  }
+  
+  .settings-section label {
+    font-weight: 700;
+  }
+  
+  .settings-section button {
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settings-section span {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }

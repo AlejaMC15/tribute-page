@@ -1,0 +1,11 @@
+.pomodoro-clock-header {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.pomodoro-clock-header-name {
+  text-transform: capitalize;
+  display: inline-block;
+  position: relative;
+  padding: 0px 10px;
+}
